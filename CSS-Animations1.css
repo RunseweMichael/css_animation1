@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes move{
+    0%{
+        transform: scaleY(1);
+    }
+
+    50%{
+        transform: scaleY(3);
+    }
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25%;
+}
+
+.one{
+    width: 8px;
+    height: 30px;
+    background-color: black;
+    animation: move 1s 1s infinite;
+}
+
+.two{
+    width: 8px;
+    height: 30px;
+    background-color: black;
+    animation: move 1s 0.7s infinite;
+}
+
+.three{
+    width: 8px;
+    height: 30px;
+    background-color: black;
+    transform: scaleY(30px);
+    animation: move 1s 0.4s infinite;
+}
+
+.four{
+    width: 8px;
+    height: 30px;
+    background-color: black;
+    animation: move 1s 0.7s infinite;
+}
+
+.five{
+    width: 8px;
+    height: 30px;
+    background-color: black;
+    animation: move 1s 1s infinite;
+}
+
+
+#col{
+    text-decoration: none;
+    color: brown;
+}
